@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Child from './component/Child';
 
 const SubjectManagement = () => {
   // State variables for subjects, subject name, and study hours
@@ -37,6 +38,7 @@ const SubjectManagement = () => {
 
   return (
     <div>
+      <Child />
       {/* Input fields for entering subject name and study hours */}
       <div>
         <input
